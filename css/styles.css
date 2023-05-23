@@ -1,13 +1,20 @@
 * {
     background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     font-family: "Lobster Two", cursive;
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
 }
 
 ul {
-    list-style-type: ;
+    list-style-type: square;
+    font-size: 2rem;
+}
+
+img {
+    height: 20px;
+    width: auto;
 }

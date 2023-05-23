@@ -1,0 +1,30 @@
+* {
+    background-color: lightyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-name, 
+.page-name {
+    font-family: "Lobster Two", cursive;
+    text-align: center;
+    margin: 0;
+
+}
+
+.site-name {
+    font-size: 20px;
+}
+
+img {
+    width: 80vh;
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+button {
+    display: inline;
+}
