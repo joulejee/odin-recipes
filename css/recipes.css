@@ -1,6 +1,7 @@
 * {
     background-color: lightyellow;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid red;
 }
 
 .site-name, 
@@ -25,6 +26,13 @@ p{
     text-align: justify;
 }
 
-button {
+.btn {
     display: inline;
+    background-color: lightblue;
+    color: black;
+    outline: black 100px;
+}
+
+.btn:hover{
+    background-color: red;
 }
