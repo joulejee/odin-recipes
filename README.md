@@ -8,3 +8,10 @@ This project is aimed to build my own (and very first) food recipe website. Curr
 - making a basic recipe website with working links.
 
 Also, this project will serve as my "base project" and will be updated time-to-time. I will use this project to apply new learnings in CSS, JavaScript or any other frameworks which I will learn in the future.
+
+<strong>UPDATE</strong>
+June 8, 2023
+
+After learning HTML and CSS foundations, next commits for this repository will focus on:
+- applying layouts, colors and styles learned for CSS Foundation
+- incorporating Flexbox concepts to make this project more presentable and responsive.
