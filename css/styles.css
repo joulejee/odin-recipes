@@ -1,11 +1,12 @@
 * {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
     font-family: "Lobster Two", cursive;
-    font-size: 80px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -21,7 +22,27 @@ img {
 
 /* update */
 
-ul {
+/* ul {
     display: flex;
     flex-direction: column;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+}
+
+.right-logo,
+.left-links {
+    display: flex;
+    gap: 20px;
 }
