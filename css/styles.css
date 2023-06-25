@@ -16,7 +16,9 @@ ul {
     list-style-type: none;
 }
 
-img {
+.fb-icon, 
+.twitter-icon,
+.insta-icon{
     height: 20px;
     width: auto;
 }
@@ -54,6 +56,8 @@ body {
     font-weight: 700;
 }
 
+/* RECIPE MENU */
+
 .recipe-menu {
     display: flex;
     justify-content: center;
@@ -68,5 +72,22 @@ body {
 }
 
 .recipes-container > ul {
-    border: 1px solid hsl(0, 100%, 50%);
-    width: 400px
+    border: 1px solid hsl(0, 100%, 50%); /* */
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img-adobo,
+.img-menudo,
+.img-sinigang {
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+
+}
