@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-height: 100vh;
 }
 
 h1 {
@@ -69,12 +70,10 @@ body {
 
     height: 500px;
 }
-
 .recipes-container {
     display: flex;
     gap: 20px;
 }
-
 .recipes-container > ul {
     border: 1px solid hsla(0, 0%, 78%, 0.845); /* */
     border-radius: 10px;
@@ -88,7 +87,6 @@ body {
     align-items: center;
 }
 
-
 .img-adobo,
 .img-menudo,
 .img-sinigang {
@@ -97,9 +95,23 @@ body {
     padding: 10px;
     border-radius: 10%;
 }
-
 .link-adobo, .link-menudo, .link-sinigang {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 900;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin-top: auto;
+    margin-bottom: 0;
+    background-color: hsla(0, 0%, 81%, 0.787);
+    height: 100px;
+    
+    
 }
