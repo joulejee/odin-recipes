@@ -28,13 +28,6 @@ a {
     width: auto;
 }
 
-/* update */
-
-/* ul {
-    display: flex;
-    flex-direction: column;
-} */
-
 body {
     display: flex;
     flex-direction: column;
@@ -117,6 +110,4 @@ body {
     margin-bottom: 0;
     background-color: hsla(0, 0%, 81%, 0.787);
     height: 100px;
-    
-    
 }

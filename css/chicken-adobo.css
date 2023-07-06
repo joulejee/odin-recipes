@@ -1,0 +1,61 @@
+* {
+    /* background-color: lightgoldenrodyellow; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+h1 {
+    font-family: "Lobster Two", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fb-icon, 
+.twitter-icon,
+.insta-icon{
+    height: 20px;
+    width: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.right-logo,
+.left-links {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* IMAGES */
+
+.chicken-adb-img {
+    width: 120px;
+}
