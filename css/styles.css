@@ -101,6 +101,11 @@ body {
     font-weight: 900;
 }
 
+.food-desc {
+    padding: 15px;
+    text-align: center;
+}
+
 /* Footer */
 .footer {
     display: flex;
